@@ -131,3 +131,7 @@ Then type
 ```
 package require openlane 0.9
 ```
+To prep the design for openlane, type the following command
+```
+prep -design picorv32a
+```
