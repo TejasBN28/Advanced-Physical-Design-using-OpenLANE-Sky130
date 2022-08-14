@@ -6,7 +6,8 @@
 # Table of contents
 - [Day-1- Inception of open source EDA OpenLANE and Sky130](#1-Inception-of-open-source-EDA-OpenLANE-and-Sky130)
     - [1.1 Introduction](#11-Introduction)
-    - [1.2 Steps of Digital ASIC Flow](##12-Steps-of-Digital-ASIC-Flow)
+    - [1.2 Steps of Digital ASIC Flow](#12-Steps-of-Digital-ASIC-Flow)
+    - [1.3 Getting Familiar With OpenLANE and Sky130](#13-Getting-Familiar-With-OpenLANE-and-Sky130)
     
 # 1. Inception of open source EDA OpenLANE and Sky130
 ## 1.1 Introduction
@@ -106,7 +107,7 @@ Routing is usually done in two steps
 ### vi. Signoff
  In this step, Physical verifiction is performed, i.e., DRC and LVS. ALso, Timing Verification i.e., Static Timing Analysis (STA) is to verify the clock frequency.
  
-
+## 1.3 Getting Familiar With OpenLANE and Sky130
  
 ### What is OpenLANE?
 OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, SPEF-Extractor and custom methodology scripts for design exploration and optimization. It is a tool started for true open source tape-out experience and comes with APACHE version 2.0 . The goal of OpenLANE is to produce clean GDSII without any human intervention. OpenLANE is tuned for Skywater 130nm open-source PDK and can be used to produce hard macros and chips
