@@ -591,3 +591,8 @@ These variables worked initially, but they were too sky130 specific and will be 
 
 [0]: ./../designs/spm/pin_order.cfg
 ```
+
+The parameters for floorplanning can be set by editing the `floorplan.tcl` file shown below. 
+<p align="center">
+  <img src="/Images/pic30.png">
+</p><br>
