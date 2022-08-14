@@ -48,7 +48,7 @@ PDK stands for process Design Kit. PDK is the interface between the Foundary aan
  
 ## 1.2 Steps of Digital ASIC Flow
 
-### Synthesis
+### i. Synthesis
 Converts RTL to Circuit out of components from the Standard Cell Library.
 <br><p align="center">
   <img src="/Images/pic6.png">
@@ -57,41 +57,41 @@ Converts RTL to Circuit out of components from the Standard Cell Library.
   <img src="/Images/pic7.png">
 </p><br>
 
-### Floorplanning and Power Planning
+### ii. Floorplanning and Power Planning
 Floorplanning is broadly classified into 
 
-#### Chip Floorplanning
+#### a. Chip Floorplanning
 
  <p align="center">
   <img src="/Images/pic8.png">
 </p><br>
 
-#### Macro Floorplanning
+#### b. Macro Floorplanning
 
  <p align="center">
   <img src="/Images/pic9.png">
 </p><br>
 
-#### Power Planning
+#### c. Power Planning
 
  Power Network is constructed. Typically, chip is powered by multiple VDD and VSS lines. Power lines use upper metal layers as they are comaritively thicker than lower metal lines, thereby offering lesser resistance.
  <p align="center">
   <img src="/Images/pic10.png">
 </p><br>
 
-### Placement
+### iii. Placement
 
  <p align="center">
   <img src="/Images/pic11.png">
 </p><br>
 
-### Clock Tree Synthesis 
+### iv. Clock Tree Synthesis 
 
 <p align="center">
   <img src="/Images/pic13.png">
 </p><br>
 
-### Routing
+### v. Routing
 Routing is usually done in two steps
 
   - Global Routing : Generates routing guides
@@ -103,8 +103,10 @@ Routing is usually done in two steps
   <img src="/Images/pic14.png">
 </p><br>
 
-### Signoff
+### vi. Signoff
  In this step, Physical verifiction is performed, i.e., DRC and LVS. ALso, Timing Verification i.e., Static Timing Analysis (STA) is to verify the clock frequency.
+ 
+
  
 ### What is OpenLANE?
 OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, SPEF-Extractor and custom methodology scripts for design exploration and optimization. It is a tool started for true open source tape-out experience and comes with APACHE version 2.0 . The goal of OpenLANE is to produce clean GDSII without any human intervention. OpenLANE is tuned for Skywater 130nm open-source PDK and can be used to produce hard macros and chips
