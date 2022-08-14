@@ -6,6 +6,7 @@
 # Table of contents
 - [Day-1- Inception of open source EDA OpenLANE and Sky130](#1-Inception-of-open-source-EDA-OpenLANE-and-Sky130)
     - [1.1 Introduction](#11-Introduction)
+    - [1.2 Steps of Digital ASIC Flow](##12-Steps-of-Digital-ASIC-Flow)
     
 # 1. Inception of open source EDA OpenLANE and Sky130
 ## 1.1 Introduction
@@ -45,7 +46,7 @@ PDK stands for process Design Kit. PDK is the interface between the Foundary aan
  - .
  - .
  
-## 1.2 Steps of Digital ASIC Flow:
+## 1.2 Steps of Digital ASIC Flow
 
 ### Synthesis
 Converts RTL to Circuit out of components from the Standard Cell Library.
