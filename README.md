@@ -135,3 +135,20 @@ To prep the design for openlane, type the following command
 ```
 prep -design picorv32a
 ```
+<p align="center">
+  <img src="/Images/pic16.png">
+</p><br>
+
+Open a new terminal and type the commands
+```
+cd Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/designs/picorv32a/runs
+ls -ltr
+```
+<p align="center">
+  <img src="/Images/pic17.png">
+</p><br>
+
+Once we run `prep` command, a new `RUN_2022.08.14_11.31.00` folder is created. 
+<p align="center">
+  <img src="/Images/pic18.png">
+</p><br>
