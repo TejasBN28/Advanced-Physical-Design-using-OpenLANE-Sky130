@@ -152,3 +152,5 @@ Once we run `prep` command, a new `RUN_2022.08.14_11.31.00` folder is created.
 <p align="center">
   <img src="/Images/pic18.png">
 </p><br>
+
+This config.tcl shows all the default parameters considered by the run. Whereas, cmds.log keeps a track of all the commands we have typed. The folder reports contains reports on synthesis, floorplanning, ......, etc. All these folders are still empty as we have not run any of the commands.
