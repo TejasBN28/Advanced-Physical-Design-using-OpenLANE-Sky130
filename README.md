@@ -275,3 +275,5 @@ Whereas, the results of the synthesis, i.e., the synthesized netlist can be foun
 </p><br>
 Typically, chip utilization is around 50% to 70%.
 
+### Preplaced Cells
+Preplaced cells, or MACRO’s, are important to enable hierarchical PnR flow. Preplaced cells enable VLSI engineers to granularize a larger design. In floorplanning we define locations and blockages for preplaced cells. Blockages are needed to ensure no standard cells are mapped where the placeplaced cells are located.
