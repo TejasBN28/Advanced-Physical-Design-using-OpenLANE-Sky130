@@ -619,3 +619,7 @@ Also, the parameters can be set in the below specified way
     }
 }
 ```
+Now, to run the floorplan, do the following
+<p align="center">
+  <img src="/Images/pic32.png">
+</p><br>
