@@ -58,27 +58,38 @@ Converts RTL to Circuit out of components from the Standard Cell Library.
 
 ### Floorplanning and Power Planning
 Floorplanning is broadly classified into 
+
 #### Chip Floorplanning
+
  <p align="center">
   <img src="/Images/pic8.png">
 </p><br>
+
 #### Macro Floorplanning
+
  <p align="center">
   <img src="/Images/pic9.png">
 </p><br>
+
 #### Power Planning
+
  Power Network is constructed. Typically, chip is powered by multiple VDD and VSS lines. Power lines use upper metal layers as they are comaritively thicker than lower metal lines, thereby offering lesser resistance.
  <p align="center">
   <img src="/Images/pic10.png">
 </p><br>
+
 ### Placement
+
  <p align="center">
   <img src="/Images/pic11.png">
 </p><br>
+
 ### Clock Tree Synthesis 
+
 <p align="center">
   <img src="/Images/pic13.png">
 </p><br>
+
 ### Routing
 Routing is usually done in two steps
 
@@ -90,7 +101,9 @@ Routing is usually done in two steps
 <p align="center">
   <img src="/Images/pic14.png">
 </p><br>
+
 ### Signoff
  In this step, Physical verifiction is performed, i.e., DRC and LVS. ALso, Timing Verification i.e., Static Timing Analysis (STA) is to verify the clock frequency.
+ 
 ### What is OpenLANE?
 OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, SPEF-Extractor and custom methodology scripts for design exploration and optimization. It is a tool started for true open source tape-out experience and comes with APACHE version 2.0 . The goal of OpenLANE is to produce clean GDSII without any human intervention. OpenLANE is tuned for Skywater 130nm open-source PDK and can be used to produce hard macros and chips
