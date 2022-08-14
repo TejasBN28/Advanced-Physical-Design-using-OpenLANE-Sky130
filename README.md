@@ -277,3 +277,17 @@ Typically, chip utilization is around 50% to 70%.
 
 ### Preplaced Cells
 Preplaced cells, or MACRO’s, are important to enable hierarchical PnR flow. Preplaced cells enable VLSI engineers to granularize a larger design. In floorplanning we define locations and blockages for preplaced cells. Blockages are needed to ensure no standard cells are mapped where the placeplaced cells are located.
+<p align="center">
+  <img src="/Images/pic26.png">
+</p><br>
+Here, block 1 and 2 are individually floorplanned and are kept as a blackbox. So, when we need to use the same module multiple times in our design, we can simply place them directly without going through the overhead of floorplanning them individaully. 
+
+<p align="center">
+  <img src="/Images/pic27.png">
+</p><br>
+
+### Decoupling Capacitor
+Decoupling capacitors are placed local to preplaced cells during Floorplanning. Voltage drops associated with interconnect wires can heavily affect our noise margin or put it into an indeterminate state. Decoupling capacitor is a big capacitor located next to the macros to fix this problem. The capacitor will charge up to the power supply voltage over time and it will work as a charge reservoir when a transition is needed by the circuit instead of the charge coming from the power supply. Therefore it “decouples” the circuit from the main supply. The capacitor acts like the power supply.
+<p align="center">
+  <img src="/Images/pic28.png">
+</p><br>
