@@ -166,6 +166,7 @@ On running synthesis, the reports are created in the location `Desktop/vsdflow/w
   <img src="/Images/pic19.png">
 </p><br>
 The statistics of the design are as follows
+
 ```
 24. Printing statistics.
 
@@ -249,6 +250,7 @@ The statistics of the design are as follows
 
    Chip area for module '\picorv32': 100880.502400
 ```
+
 Whereas, the results of the synthesis, i.e., the synthesized netlist can be found in the results folder under the name `picorv32a.v`.
 <p align="center">
   <img src="/Images/pic21.png">
