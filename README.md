@@ -49,7 +49,6 @@ PDK stands for process Design Kit. PDK is the interface between the Foundary aan
 
 ### - Synthesis
 Converts RTL to Circuit out of components from the Standard Cell Library.
-
 <br><p align="center">
   <img src="/Images/pic6.png">
 </p><br>
@@ -59,15 +58,15 @@ Converts RTL to Circuit out of components from the Standard Cell Library.
 
 ### - Floorplanning and Power Planning
 Floorplanning is broadly classified into 
-### - Chip Floorplanning
+- Chip Floorplanning
  <p align="center">
   <img src="/Images/pic8.png">
 </p><br>
-### - Macro Floorplanning
+- Macro Floorplanning
  <p align="center">
   <img src="/Images/pic9.png">
 </p><br>
-### - Power Planning
+- Power Planning
  Power Network is constructed. Typically, chip is powered by multiple VDD and VSS lines. Power lines use upper metal layers as they are comaritively thicker than lower metal lines, thereby offering lesser resistance.
  <p align="center">
   <img src="/Images/pic10.png">
