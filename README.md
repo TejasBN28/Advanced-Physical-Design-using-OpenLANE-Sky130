@@ -273,3 +273,5 @@ Whereas, the results of the synthesis, i.e., the synthesized netlist can be foun
 <p align="center">
   <img src="/Images/pic25.png">
 </p><br>
+Typically, chip utilization is around 50% to 70%.
+
