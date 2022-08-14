@@ -8,8 +8,8 @@
     - [1.1 Introduction](#11-Introduction)
     - [1.2 Steps of Digital ASIC Flow](#12-Steps-of-Digital-ASIC-Flow)
     - [1.3 Getting Familiar With OpenLANE and Sky130](#13-Getting-Familiar-With-OpenLANE-and-Sky130)
-- [Day-2- Inception of open source EDA OpenLANE and Sky130](#1-Inception-of-open-source-EDA-OpenLANE-and-Sky130)
-    
+- [Day-2- Good Floorplan vs Bad Floorplan and Introduction to Library Cells](#2-Good-Floorplan-vs-Bad-Floorplan-and-Introduction-to-Library-Cells)
+   
 # 1. Inception of open source EDA OpenLANE and Sky130
 ## 1.1 Introduction
 ### Chips versus Package
@@ -256,3 +256,5 @@ Whereas, the results of the synthesis, i.e., the synthesized netlist can be foun
 <p align="center">
   <img src="/Images/pic21.png">
 </p><br>
+
+# 2. Good Floorplan vs Bad Floorplan and Introduction to Library Cells 
