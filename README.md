@@ -14,14 +14,17 @@ Chips are typically inside a package. Pins of the chips are connected to the pac
 <p align="center">
   <img src="/Images/pic1.png">
 </p><br>
-I/O pads are used to communicate with the chip. <br>
+I/O pads are used to communicate with the chip. 
+
+<br>
 <p align="center">
   <img src="/Images/pic2.png">
 </p><br>
 Typically, components of a chip can be classified into two categories,
  - Foundary IPs
- - Macros <br>
-<p align="center">
+ - Macros 
+
+<br><p align="center">
   <img src="/Images/pic3.png">
 </p><br>
 
