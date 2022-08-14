@@ -9,6 +9,7 @@
     - [1.2 Steps of Digital ASIC Flow](#12-Steps-of-Digital-ASIC-Flow)
     - [1.3 Getting Familiar With OpenLANE and Sky130](#13-Getting-Familiar-With-OpenLANE-and-Sky130)
 - [Day-2- Good Floorplan vs Bad Floorplan and Introduction to Library Cells](#2-Good-Floorplan-vs-Bad-Floorplan-and-Introduction-to-Library-Cells)
+    - [2.1 Chip Floorplanning Considerations](#21-Chip-Floorplanning-Considerations)
    
 # 1. Inception of open source EDA OpenLANE and Sky130
 ## 1.1 Introduction
@@ -258,3 +259,17 @@ Whereas, the results of the synthesis, i.e., the synthesized netlist can be foun
 </p><br>
 
 # 2. Good Floorplan vs Bad Floorplan and Introduction to Library Cells 
+## 2.1 Chip Floorplanning Considerations
+### Utilization Factor and Aspect Ratio
+<p align="center">
+  <img src="/Images/pic22.png">
+</p><br>
+<p align="center">
+  <img src="/Images/pic23.png">
+</p><br>
+<p align="center">
+  <img src="/Images/pic24.png">
+</p><br>
+<p align="center">
+  <img src="/Images/pic25.png">
+</p><br>
