@@ -110,4 +110,24 @@ Routing is usually done in two steps
 ## 1.3 Getting Familiar With OpenLANE and Sky130
  
 ### What is OpenLANE?
-OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, SPEF-Extractor and custom methodology scripts for design exploration and optimization. It is a tool started for true open source tape-out experience and comes with APACHE version 2.0 . The goal of OpenLANE is to produce clean GDSII without any human intervention. OpenLANE is tuned for Skywater 130nm open-source PDK and can be used to produce hard macros and chips
+OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, SPEF-Extractor and custom methodology scripts for design exploration and optimization. It is a tool started for true open source tape-out experience and comes with APACHE version 2.0 . The goal of OpenLANE is to produce clean GDSII without any human intervention. OpenLANE is tuned for Skywater 130nm open-source PDK and can be used to produce hard macros and chips.
+<p align="center">
+  <img src="/Images/pic15.png">
+</p><br>
+
+## Invoking Openlane
+To invoke openlane, type the following 
+```
+cd Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane
+make mount
+```
+
+Then, type the following command
+```
+./flow.tcl -interactive
+```
+
+Then type 
+```
+package require openlane 0.9
+```
