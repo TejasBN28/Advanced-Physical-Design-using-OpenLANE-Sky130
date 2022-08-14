@@ -632,3 +632,8 @@ Here, we see that `DIEAREA ( 0 0 ) ( 547910 558630 ) ;` is basically the coordin
 <p align="center">
   <img src="/Images/pic34.png">
 </p><br>
+
+Now, to open the floorplan, type the following command
+<p align="center">
+  <img src="/Images/pic35.png">
+</p><br>
