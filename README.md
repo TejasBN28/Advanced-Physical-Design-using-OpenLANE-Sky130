@@ -623,3 +623,12 @@ Now, to run the floorplan, do the following
 <p align="center">
   <img src="/Images/pic32.png">
 </p><br>
+
+Now, to see the floorplan result, do the following
+<p align="center">
+  <img src="/Images/pic33.png">
+</p><br>
+Here, we see that `DIEAREA ( 0 0 ) ( 547910 558630 ) ;` is basically the coordinates, where (0,0) is the lowest leftmost part and ( 547910 558630 ) is the topmost rightmost part. 
+<p align="center">
+  <img src="/Images/pic34.png">
+</p><br>
