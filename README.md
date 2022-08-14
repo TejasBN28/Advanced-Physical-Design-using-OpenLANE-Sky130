@@ -596,3 +596,26 @@ The parameters for floorplanning can be set by editing the `floorplan.tcl` file 
 <p align="center">
   <img src="/Images/pic30.png">
 </p><br>
+
+Also, the parameters can be set in the below specified way
+<p align="center">
+  <img src="/Images/pic31.png">
+</p><br>
+
+```
+{
+    "DESIGN_NAME": "picorv32",
+    "VERILOG_FILES": "dir::src/picorv32a.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "clk",
+    "GLB_RESIZER_TIMING_OPTIMIZATIONS": true,
+    "CLOCK_PERIOD": 24,
+    "pdk::sky130*": {
+        "SYNTH_MAX_FANOUT": 6,
+        "FP_CORE_UTIL": 35,
+        "scl::sky130_fd_sc_ms": {
+            "FP_CORE_UTIL": 30
+        }
+    }
+}
+```
