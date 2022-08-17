@@ -637,3 +637,7 @@ Now, to open the floorplan, type the following command
 <p align="center">
   <img src="/Images/pic35.png">
 </p><br>
+
+<p align="center">
+  <img src="/Images/pic36.png">
+</p><br>
