@@ -663,4 +663,22 @@ TO open the floorplan, type the following commands
 
 
 # 3. Design of Library Cells Using Magic Layout and ngspice characterization
+The steps to analyse the layout of inverter are 
+```
+git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+cd vsdstdcelldesign.git
+magic -T libs/sky130A.tech sky130_inv.mag &
+```
+<p align="center">
+  <img src="/Images/pic41.png">
+</p><br>
 
+Now, in the layout, go over some part of the circuit and press`s` on the keyboard. Then switch tab to `tkcon` and type `what`.
+
+<p align="center">
+  <img src="/Images/pic42.png">
+</p><br>
+
+<p align="center">
+  <img src="/Images/pic43.png">
+</p><br>
