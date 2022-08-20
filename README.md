@@ -651,3 +651,11 @@ TO open the floorplan, type the following commands
   <img src="/Images/pic38.png">
 </p><br>
 
+TO open the floorplan, type the following commands
+<p align="center">
+  <img src="/Images/pic39.png">
+</p><br>
+
+<p align="center">
+  <img src="/Images/pic40.png">
+</p><br>
