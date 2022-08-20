@@ -10,7 +10,8 @@
     - [1.3 Getting Familiar With OpenLANE and Sky130](#13-Getting-Familiar-With-OpenLANE-and-Sky130)
 - [Day-2- Good Floorplan vs Bad Floorplan and Introduction to Library Cells](#2-Good-Floorplan-vs-Bad-Floorplan-and-Introduction-to-Library-Cells)
     - [2.1 Chip Floorplanning Considerations](#21-Chip-Floorplanning-Considerations)
-   
+- [Day-3- Design of Library Cells Using Magic Layout and ngspice characterization](#3-Design-of-Library-Cells-Using-Magic-Layout-and-ngspice-characterization)
+
 # 1. Inception of open source EDA OpenLANE and Sky130
 ## 1.1 Introduction
 ### Chips versus Package
@@ -659,3 +660,7 @@ TO open the floorplan, type the following commands
 <p align="center">
   <img src="/Images/pic40.png">
 </p><br>
+
+
+# 3. Design of Library Cells Using Magic Layout and ngspice characterization
+
