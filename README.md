@@ -724,7 +724,18 @@ Then, do the following changes in `config.json`
     "CLOCK_NET": "clk",
     "GLB_RESIZER_TIMING_OPTIMIZATIONS": true,
     "CLOCK_PERIOD": 24,
-    "EXTRA_LEFS": "dir::src/*lef",	
+    
+    "LIB_SYNTH": "dir::src/sky130_fd_sc_hd__typical.lib",	
+    "LIB_FASTEST": "dir::src/sky130_fd_sc_hd__fast.lib",
+    "LIB_SLOWEST": "dir::src/sky130_fd_sc_hd__slow.lib",
+    "LIB_TYPICAL": "dir::src/sky130_fd_sc_hd__typical.lib",
+    "EXTRA_LEFS": "dir::src/*.lef",	
+    
+    
+    "SYNTH_BUFFERING": 1,
+    "SYNTH_BUFFERING": 1,
+        
+    
     "pdk::sky130*": {
         "SYNTH_MAX_FANOUT": 6,
         "FP_CORE_UTIL": 35,
@@ -734,6 +745,11 @@ Then, do the following changes in `config.json`
     }
 }
 ```
+Here,
+<p align="center">
+  <img src="/Images/pic50.png">
+</p><br>
+
 Then start the normal openlane steps shown below with the extra commands from `https://github.com/nickson-jose/vsdstdcelldesign#:~:text=set%20lefs%20%5Bglob%20%24%3A%3Aenv(DESIGN_DIR)/src/*.lef%5D%0A%20%20%0A%20%20%20%20add_lefs%20%2Dsrc%20%24lefs`
 
 <p align="center">
