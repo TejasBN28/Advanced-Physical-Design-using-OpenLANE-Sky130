@@ -690,3 +690,7 @@ But for placement and rounting, all this information is redundant. All the infor
  - Input and output ports must lie on the intersection of the vertical and horizontal tracks.
  - Width of the standard cellmust be an odd multiple of track pitch and the height must be odd multiple of vertical pitch.
  - 
+The tracks info can be seen by doing the following:
+<p align="center">
+  <img src="/Images/pic44.png">
+</p><br>
