@@ -739,3 +739,90 @@ Then start the normal openlane steps shown below with the extra commands from `h
 <p align="center">
   <img src="/Images/pic49.png">
 </p><br>
+
+We get the following statistics,
+```
+
+24. Printing statistics.
+
+=== picorv32 ===
+
+   Number of wires:               9379
+   Number of wire bits:           9761
+   Number of public wires:        1512
+   Number of public wire bits:    1894
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9659
+     sky130_fd_sc_hd__a2111o_2       1
+     sky130_fd_sc_hd__a211o_2       68
+     sky130_fd_sc_hd__a211oi_2      11
+     sky130_fd_sc_hd__a21bo_2       17
+     sky130_fd_sc_hd__a21boi_2       6
+     sky130_fd_sc_hd__a21o_2       263
+     sky130_fd_sc_hd__a21oi_2      117
+     sky130_fd_sc_hd__a221o_2      119
+     sky130_fd_sc_hd__a22o_2       155
+     sky130_fd_sc_hd__a22oi_2        2
+     sky130_fd_sc_hd__a2bb2o_2      22
+     sky130_fd_sc_hd__a311o_2       35
+     sky130_fd_sc_hd__a311oi_2       1
+     sky130_fd_sc_hd__a31o_2        80
+     sky130_fd_sc_hd__a31oi_2        7
+     sky130_fd_sc_hd__a32o_2       108
+     sky130_fd_sc_hd__a41o_2         3
+     sky130_fd_sc_hd__and2_2       218
+     sky130_fd_sc_hd__and2b_2       29
+     sky130_fd_sc_hd__and3_2       110
+     sky130_fd_sc_hd__and3b_2       41
+     sky130_fd_sc_hd__and4_2        44
+     sky130_fd_sc_hd__and4b_2        1
+     sky130_fd_sc_hd__buf_1       2613
+     sky130_fd_sc_hd__buf_2         18
+     sky130_fd_sc_hd__conb_1       106
+     sky130_fd_sc_hd__dfxtp_2     1596
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__mux2_2      1629
+     sky130_fd_sc_hd__mux4_2       440
+     sky130_fd_sc_hd__nand2_2      229
+     sky130_fd_sc_hd__nand2b_2       1
+     sky130_fd_sc_hd__nand3_2       13
+     sky130_fd_sc_hd__nand3b_2       4
+     sky130_fd_sc_hd__nand4_2        2
+     sky130_fd_sc_hd__nor2_2       226
+     sky130_fd_sc_hd__nor2b_2        1
+     sky130_fd_sc_hd__nor3_2        13
+     sky130_fd_sc_hd__nor3b_2        3
+     sky130_fd_sc_hd__nor4_2         4
+     sky130_fd_sc_hd__nor4b_2        2
+     sky130_fd_sc_hd__o2111a_2       4
+     sky130_fd_sc_hd__o2111ai_2      4
+     sky130_fd_sc_hd__o211a_2       94
+     sky130_fd_sc_hd__o211ai_2       5
+     sky130_fd_sc_hd__o21a_2       203
+     sky130_fd_sc_hd__o21ai_2      118
+     sky130_fd_sc_hd__o21ba_2        9
+     sky130_fd_sc_hd__o21bai_2       4
+     sky130_fd_sc_hd__o221a_2       67
+     sky130_fd_sc_hd__o22a_2        45
+     sky130_fd_sc_hd__o2bb2a_2       6
+     sky130_fd_sc_hd__o311a_2        5
+     sky130_fd_sc_hd__o31a_2        15
+     sky130_fd_sc_hd__o31ai_2        8
+     sky130_fd_sc_hd__o32a_2         3
+     sky130_fd_sc_hd__o32ai_2        1
+     sky130_fd_sc_hd__o41a_2         2
+     sky130_fd_sc_hd__or2_2        385
+     sky130_fd_sc_hd__or2b_2        23
+     sky130_fd_sc_hd__or3_2         49
+     sky130_fd_sc_hd__or3b_2        19
+     sky130_fd_sc_hd__or4_2         33
+     sky130_fd_sc_hd__or4b_2         5
+     sky130_fd_sc_hd__xnor2_2       86
+     sky130_fd_sc_hd__xor2_2        38
+     sky130_vsdinv                  68
+
+   Chip area for module '\picorv32': 100880.502400
+   ```
