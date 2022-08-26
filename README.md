@@ -714,3 +714,28 @@ Then, copy the exreacted `.lef` and libs to file to the src folder in `picorv32a
 <p align="center">
   <img src="/Images/pic48.png">
 </p><br>
+
+Then, do the following changes in `config.json`
+```
+{
+    "DESIGN_NAME": "picorv32",
+    "VERILOG_FILES": "dir::src/picorv32a.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "clk",
+    "GLB_RESIZER_TIMING_OPTIMIZATIONS": true,
+    "CLOCK_PERIOD": 24,
+    "EXTRA_LEFS": "dir::src/*lef",	
+    "pdk::sky130*": {
+        "SYNTH_MAX_FANOUT": 6,
+        "FP_CORE_UTIL": 35,
+        "scl::sky130_fd_sc_hd": {
+            "FP_CORE_UTIL": 30
+        }
+    }
+}
+```
+Then start the normal openlane steps shown below with the extra commands from `https://github.com/nickson-jose/vsdstdcelldesign#:~:text=set%20lefs%20%5Bglob%20%24%3A%3Aenv(DESIGN_DIR)/src/*.lef%5D%0A%20%20%0A%20%20%20%20add_lefs%20%2Dsrc%20%24lefs`
+
+<p align="center">
+  <img src="/Images/pic49.png">
+</p><br>
