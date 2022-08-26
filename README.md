@@ -680,3 +680,4 @@ Now, in the layout, go over some part of the circuit and press`s` on the keyboar
 # 4. Prelayout Timing Analysis and Importance of Good Clock Tree
 ## 4.1 Time Modelling Using Delay Tables  
 
+Now, `.mag` file contains the entire layout information of the standard cell. For example 
