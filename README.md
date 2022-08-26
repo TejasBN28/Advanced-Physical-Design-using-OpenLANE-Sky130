@@ -689,8 +689,19 @@ But for placement and rounting, all this information is redundant. All the infor
 ### Rules for Designing Standard Cell
  - Input and output ports must lie on the intersection of the vertical and horizontal tracks.
  - Width of the standard cellmust be an odd multiple of track pitch and the height must be odd multiple of vertical pitch.
- - 
-The tracks info can be seen by doing the following:
+  
+Routs are wires in x direction and tracks are metals in y direction. Basically, routes can go over tracks. The tracks info can be seen by doing the following:
 <p align="center">
   <img src="/Images/pic44.png">
+</p><br>
+
+### Extracting the `.lef` file
+ Open the sky130_inv.mag by typing the following command `magic -T libs/sky130A.tech sky130_inv.mag &`. Then in the console, type `save sky130A_vsdinv.mag`. Then, open the new inverter by typing `magic -T libs/sky130A.tech sky130_vsdinv.mag &` in the terminal. Then type `write lef`. The lef file is created. It can be opened by typing `gedit sky130_vsdinv.lef`.
+ 
+ <p align="center">
+  <img src="/Images/pic45.png">
+</p><br>
+
+<p align="center">
+  <img src="/Images/pic46.png">
 </p><br>
