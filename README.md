@@ -826,3 +826,5 @@ We get the following statistics,
 
    Chip area for module '\picorv32': 100880.502400
    ```
+   
+   Here, `sky130_vsdinv` is displayed in the stat, but there are timing violations.
