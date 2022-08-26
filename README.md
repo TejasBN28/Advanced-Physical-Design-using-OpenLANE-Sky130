@@ -11,7 +11,9 @@
 - [Day-2- Good Floorplan vs Bad Floorplan and Introduction to Library Cells](#2-Good-Floorplan-vs-Bad-Floorplan-and-Introduction-to-Library-Cells)
     - [2.1 Chip Floorplanning Considerations](#21-Chip-Floorplanning-Considerations)
 - [Day-3- Design of Library Cells Using Magic Layout and ngspice characterization](#3-Design-of-Library-Cells-Using-Magic-Layout-and-ngspice-characterization)
-
+- [Day-4- Prelayout Timing Analysis and Importance of Good Clock Tree](#4-Prelayout-Timing-Analysis-and-Importance-of-Good-Clock-Tree)
+    - [4.1 Time Modelling Using Delay Tables](#41-Time-Modelling-Using-Delay-Tables)
+  
 # 1. Inception of open source EDA OpenLANE and Sky130
 ## 1.1 Introduction
 ### Chips versus Package
@@ -673,3 +675,8 @@ Now, in the layout, go over some part of the circuit and press`s` on the keyboar
 <p align="center">
   <img src="/Images/pic43.png">
 </p><br>
+
+
+# 4. Prelayout Timing Analysis and Importance of Good Clock Tree
+## 4.1 Time Modelling Using Delay Tables  
+
