@@ -680,4 +680,13 @@ Now, in the layout, go over some part of the circuit and press`s` on the keyboar
 # 4. Prelayout Timing Analysis and Importance of Good Clock Tree
 ## 4.1 Time Modelling Using Delay Tables  
 
-Now, `.mag` file contains the entire layout information of the standard cell. For example 
+Now, `.mag` file contains the entire layout information of the standard cell. For example, the `sky130_inv.mag` is shown below.
+<p align="center">
+  <img src="/Images/pic41.png">
+</p><br>
+But for placement and rounting, all this information is redundant. All the information required for a placement tool is the inner box of the standard cell, location of Power and Ground lines and location of input and output ports. This information is exclusively available in `.lef` file.
+
+### Rules for Designing Standard Cell
+ - Input and output ports must lie on the intersection of the vertical and horizontal tracks.
+ - Width of the standard cellmust be an odd multiple of track pitch and the height must be odd multiple of vertical pitch.
+ - 
