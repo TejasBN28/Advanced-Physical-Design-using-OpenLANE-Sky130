@@ -705,3 +705,12 @@ Routs are wires in x direction and tracks are metals in y direction. Basically, 
 <p align="center">
   <img src="/Images/pic46.png">
 </p><br>
+
+Then, copy the exreacted `.lef` and libs to file to the src folder in `picorv32a`
+<p align="center">
+  <img src="/Images/pic47 .png">
+</p><br>
+
+<p align="center">
+  <img src="/Images/pic48 .png">
+</p><br>
